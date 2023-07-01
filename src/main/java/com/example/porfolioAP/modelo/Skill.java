@@ -10,6 +10,7 @@ import jakarta.persistence.*;
  *
  * @author HP
  */
+/*
 @Entity
 @Table(name = "skill")
 public class Skill {
@@ -73,3 +74,4 @@ public class Skill {
     
     
 }
+*/

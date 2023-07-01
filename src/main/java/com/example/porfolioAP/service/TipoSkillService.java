@@ -4,8 +4,8 @@
  */
 package com.example.porfolioAP.service;
 
-import com.example.porfolioAP.modelo.Tipo_Skill;
-import com.example.porfolioAP.repository.SkillTipoRepo;
+//import com.example.porfolioAP.modelo.Tipo_Skill;
+//import com.example.porfolioAP.repository.SkillTipoRepo;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,6 +14,7 @@ import org.springframework.stereotype.Service;
  *
  * @author HP
  */
+/*
 @Service
 public class TipoSkillService implements ITipoSkillService{
     @Autowired
@@ -25,3 +26,4 @@ public class TipoSkillService implements ITipoSkillService{
         return repoTSkills.findAll();
     }
 }
+*/

@@ -12,7 +12,8 @@ import org.springframework.web.bind.annotation.*;
  */
 @RestController
 @RequestMapping({"/api/v1/"})
-@CrossOrigin(origins = "https://frontend-argprograma-santi.web.app")
+//@CrossOrigin(origins = "https://frontend-argprograma-santi.web.app")
+@CrossOrigin(origins = "https://localhost:4200")
 public class UsuarioController {
     
 }

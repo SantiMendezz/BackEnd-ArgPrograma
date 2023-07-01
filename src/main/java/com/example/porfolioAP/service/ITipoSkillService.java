@@ -4,13 +4,15 @@
  */
 package com.example.porfolioAP.service;
 
-import com.example.porfolioAP.modelo.Tipo_Skill;
+//import com.example.porfolioAP.modelo.Tipo_Skill;
 import java.util.List;
 
 /**
  *
  * @author HP
  */
+/*
 public interface ITipoSkillService {
     public List<Tipo_Skill> encontrarTodosLosTipos();
 }
+*/

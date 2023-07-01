@@ -4,15 +4,15 @@
  */
 package com.example.porfolioAP.modelo;
 
-import jakarta.persistence.*;
-import java.util.List;
+//import jakarta.persistence.*;
+//import java.util.List;
 
 
 /**
  *
  * @author HP
  */
-
+/*
 @Entity
 @Table(name="tipo_skill")
 public class Tipo_Skill {
@@ -24,13 +24,13 @@ public class Tipo_Skill {
     @Column(name = "nombre",length=50,nullable=false)
     private String nombre;
     
-    //@OneToMany(mappedBy = "id",cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.DETACH, CascadeType.REFRESH})
-    //private List<Skill> skills;
+//    @OneToMany(mappedBy = "tipo_skill",cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.DETACH, CascadeType.REFRESH})
+//    private List<Skill> skills;
 
-    public Tipo_Skill(Long id, String nombre, List<Skill> skills) {
+    public Tipo_Skill(Long id, String nombre) {
         this.tipo_skill_id = id;
         this.nombre = nombre;
-        //this.skills = skills;
+//        this.skills = skills;
     }
 
     public Tipo_Skill(Long id, String nombre) {
@@ -57,13 +57,12 @@ public class Tipo_Skill {
         this.nombre = nombre;
     }
 
-    /*public List<Skill> getSkills() {
+    public List<Skill> getSkills() {
         return skills;
     }
 
     public void setSkills(List<Skill> skills) {
         this.skills = skills;
-    }
-    */
-    
+   }
 }
+*/
